@@ -31,24 +31,24 @@
 ---
 # **Professores**
 
-##### **Programação Web** 
-<br>Fernando Pinho Marson
-
-##### **Projeto de Desenvolvimento Web** 
-<br>Miguel Boavida
-
-##### **Sistemas de Informação Geográficos** 
-<br>José António Travanca Lopes 
-
-##### **Interfaces e Usabilidade** 
-<br>Paula Cristina Marques Neves
-
-##### **Algoritmos e Estrutura de Dados** 
-<br>Alexandre Barão
-
-##### **Estatística** 
-<br>Rodolfo Agüero Bendoyro
-
+### **Programação Web** 
+Fernando Pinho Marson
+<br>
+### **Projeto de Desenvolvimento Web** 
+Miguel Boavida
+<br>
+### **Sistemas de Informação Geográficos** 
+José António Travanca Lopes 
+<br>
+### **Interfaces e Usabilidade** 
+Paula Cristina Marques Neves
+<br>
+### **Algoritmos e Estrutura de Dados** 
+Alexandre Barão
+<br>
+### **Estatística** 
+Rodolfo Agüero Bendoyro
+<br>
 
 ---
 # Relatório - Projeto Web - DarkLeague
