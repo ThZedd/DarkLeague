@@ -1,9 +1,5 @@
 
 ![image](https://github.com/user-attachments/assets/dd55e169-cb3e-4b78-b666-63bd3092f4f6)
-
-# DarkLeague
-
-
 ---
 # **Índice**
 
@@ -35,22 +31,22 @@
 ---
 # **Professores**
 
-###### **Programação Web** 
+##### **Programação Web** 
 <br>Fernando Pinho Marson
 
-###### **Projeto de Desenvolvimento Web** 
+##### **Projeto de Desenvolvimento Web** 
 <br>Miguel Boavida
 
-###### **Sistemas de Informação Geográficos** 
+##### **Sistemas de Informação Geográficos** 
 <br>José António Travanca Lopes 
 
-###### **Interfaces e Usabilidade** 
+##### **Interfaces e Usabilidade** 
 <br>Paula Cristina Marques Neves
 
-###### **Algoritmos e Estrutura de Dados** 
+##### **Algoritmos e Estrutura de Dados** 
 <br>Alexandre Barão
 
-###### **Estatística** 
+##### **Estatística** 
 <br>Rodolfo Agüero Bendoyro
 
 
