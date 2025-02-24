@@ -24,12 +24,12 @@
 10. [Distribuição de Tarefas](#distribui%C3%A7%C3%A3o-de-tarefas)
 
 ---
-# Curso: 
+# Curso
 
 #### - **Engenharia Informática** 
 
 ---
-# Elementos do Grupo:
+# Elementos do Grupo
 
 - **Bernardo Carvalho - 20231441**
 - **Kira Sousa -  20231205**
