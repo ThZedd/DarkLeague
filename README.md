@@ -1,7 +1,7 @@
 
 ![image](https://github.com/user-attachments/assets/dd55e169-cb3e-4b78-b666-63bd3092f4f6)
 ---
-# **# **Índice**
+# Índice
 
 1. [Curso](#curso)
 2. [Elementos do Grupo](#elementos-do-grupo)
