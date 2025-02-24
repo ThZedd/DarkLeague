@@ -142,3 +142,32 @@ Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e comp
     - **JWT (JSON Web Token)** – Utilizado para autenticação dos utilizadores, assegurando sessões seguras.
 
 ---
+# Distribuição de Tarefas
+
+| Membro                | Responsabilidades                                      | Subtarefas | Prazo                |
+|-----------------------|-------------------------------------------------------|------------|----------------------|
+| **Bernardo Carvalho** (20231441) | Desenvolvimento do **back-end** com **Spring Boot** e criação da **REST API**. | - Configuração do ambiente de desenvolvimento. | **22/02 - 28/02** |
+|                       |                                                       | - Criação da estrutura do projeto em **Spring Boot**. | **29/02 - 06/03** |
+|                       |                                                       | - Implementação da API para **gestão de utilizadores**. | **07/03 - 13/03** |
+|                       |                                                       | - Desenvolvimento da API para **gestão de torneios e cartas**. | **14/03 - 20/03** |
+|                       |                                                       | - Integração com a **base de dados MySQL**. | **21/03 - 27/03** |
+|                       |                                                       | - Testes unitários e otimização do back-end. | **28/03 - 03/04** |
+| **Kira Sousa** (20231205) | Desenvolvimento do **front-end** usando **HTML, CSS e JavaScript**. | - Criação do **design inicial** e prototipagem. | **08/03 - 14/03** |
+|                       |                                                       | - Desenvolvimento do **HTML e CSS da página principal**. | **15/03 - 21/03** |
+|                       |                                                       | - Implementação da **página de pesquisa e detalhe das cartas**. | **22/03 - 28/03** |
+|                       |                                                       | - Desenvolvimento do **sistema de torneios no front-end**. | **29/03 - 04/04** |
+|                       |                                                       | - Ajustes de **responsividade e acessibilidade**. | **05/04 - 11/04** |
+|                       |                                                       | - Integração do front-end com o **back-end via API**. | **12/04 - 18/04** |
+| **Tiago Rato** (20230931) | Configuração e gestão da **base de dados MySQL**. | - Modelagem da **estrutura da base de dados**. | **22/02 - 28/02** |
+|                       |                                                       | - Criação das **tabelas para cartas, utilizadores e torneios**. | **29/02 - 06/03** |
+|                       |                                                       | - Implementação das **queries para manipulação de dados**. | **07/03 - 13/03** |
+|                       |                                                       | - Desenvolvimento de **stored procedures e otimização da BD**. | **14/03 - 20/03** |
+| **Gonçalo Fernandes** (20231215) | Implementação de **Sistemas de Informação Geográfica (SIG)** com **QGIS**. | - Configuração do **QGIS e importação de dados geográficos**. | **22/02 - 28/02** |
+|                       |                                                       | - Mapeamento das **localizações dos torneios**. | **29/02 - 06/03** |
+|                       |                                                       | - Implementação de **filtros e camadas interativas**. | **07/03 - 13/03** |
+|                       |                                                       | - Integração do **sistema geográfico com o back-end**. | **14/03 - 20/03** |
+| **Todos** | Integração do **front-end** com o **back-end**, testes de funcionalidade e correções. | - Conectar todas as partes do projeto e testar APIs. | **19/04 - 25/04** |
+|                       |                                                       | - Ajustes finais de **design e usabilidade**. | **26/04 - 02/05** |
+| **Todos** | Testes finais, otimizações e preparação para apresentação. | - Testes gerais de **desempenho e segurança**. | **03/05 - 09/05** |
+|                       |                                                       | - Revisão final e **documentação do projeto**. | **10/05 - 16/05** |
+| **Todos** | Revisão final e entrega do projeto. | - Últimos ajustes e **preparação da entrega final**. | **17/05 - 29/05** |
