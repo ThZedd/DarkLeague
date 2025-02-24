@@ -1,7 +1,7 @@
 
 ![image](https://github.com/user-attachments/assets/dd55e169-cb3e-4b78-b666-63bd3092f4f6)
 ---
-# **Índice**
+# **# **Índice**
 
 1. [Curso](#curso)
 2. [Elementos do Grupo](#elementos-do-grupo)
@@ -12,6 +12,16 @@
     - [Objetivos](#objetivos)
 6. [Público-Alvo](#p%C3%BAblico-alvo)
 7. [Websites Semelhantes](#websites-semelhantes)
+8. [Enquadramento nas Unidades Curriculares](#enquadramento-nas-unidades-curriculares)
+9. [Requisitos Técnicos](#requisitos-t%C3%A9cnicos)
+    - [Linguagens de Programação](#linguagens-de-programa%C3%A7%C3%A3o)
+    - [Frameworks e Tecnologias](#frameworks-e-tecnologias)
+    - [Plataforma de Desenvolvimento](#plataforma-de-desenvolvimento)
+    - [Base de Dados](#base-de-dados)
+    - [API e Comunicação](#api-e-comunica%C3%A7%C3%A3o)
+    - [Sistemas de Informação Geográfica (SIG)](#sistemas-de-informa%C3%A7%C3%A3o-geogr%C3%A1fica-sig)
+    - [Segurança e Autenticação](#seguran%C3%A7a-e-autentica%C3%A7%C3%A3o)
+10. [Distribuição de Tarefas](#distribui%C3%A7%C3%A3o-de-tarefas)
 
 ---
 # Curso: 
