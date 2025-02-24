@@ -90,3 +90,55 @@ Após uma pesquisa acerca de plataformas disponíveis no mercado, identificámos
 Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e compra de cartas**, o **DarkLeague** pretende destacar-se ao integrar **gestão de coleção personalizada, pesquisa detalhada e um sistema acessível para torneios**, proporcionando uma experiência mais completa para colecionadores e jogadores.
 
 ---
+# Enquadramento nas Unidades Curriculares
+
+- **Programação Web:** Desenvolvimento do website **DarkLeague** utilizando tecnologias modernas para garantir uma aplicação web responsiva, dinâmica e segura. Foram aplicados conceitos avançados de desenvolvimento web, como **renderização no lado do cliente/servidor, otimização de desempenho e integração com APIs** para a pesquisa de cartas e organização de torneios.
+    
+- **Projeto de Desenvolvimento Web:** Planeamento, arquitetura e implementação da plataforma, incluindo a **definição de requisitos funcionais e não funcionais**, escolha das tecnologias adequadas e metodologias ágeis para o desenvolvimento. Além disso, foram aplicadas boas práticas de **versionamento de código** e **colaboração em equipe** utilizando plataformas como GitHub.
+    
+- **Sistemas de Informação Geográficos:** Implementação de funcionalidades que permitem aos utilizadores **localizar eventos de torneios presenciais** através da geolocalização. Esta integração possibilita a exibição de **mapas interativos** para facilitar a navegação entre torneios próximos e a análise da distribuição de eventos em diferentes regiões.
+    
+- **Interfaces e Usabilidade:** Aplicação de princípios de **UX/UI Design** para garantir uma **experiência intuitiva e fluida** na navegação do website. Foram utilizadas técnicas como **design responsivo, acessibilidade digital e testes de usabilidade**, assegurando que a plataforma seja eficiente para diferentes perfis de utilizadores, desde jogadores casuais até organizadores de torneios.
+    
+- **Algoritmos e Estrutura de Dados:** Desenvolvimento e otimização dos algoritmos para a **organização e filtragem de cartas**, permitindo buscas rápidas e eficientes com base em critérios como **tipo, raridade, preço e meta competitivo**. Também foram implementadas **estruturas de dados para a gestão dos torneios**, garantindo um processamento ágil e preciso dos participantes, emparelhamentos e resultados.
+    
+- **Estatística:** Aplicação de técnicas estatísticas para a **análise e interpretação de dados** relacionados ao desempenho dos jogadores, cartas mais utilizadas em torneios e tendências de mercado. Foram utilizados métodos de **probabilidade e análise preditiva** para identificar padrões estratégicos e oferecer insights valiosos para os utilizadores.
+
+---
+# Requisitos Técnicos
+
+- **Linguagens de Programação:**
+    
+    - **Java** – Utilizado no desenvolvimento da lógica do servidor e implementação da API com **Spring Boot**.
+    - **JavaScript** – Responsável pela interatividade da interface do utilizador, garantindo uma experiência dinâmica e responsiva.
+    - **HTML & CSS** – Fundamentais para a estruturação e estilização do **front-end**, assegurando um design intuitivo e acessível.
+    
+- **Frameworks e Tecnologias:**
+    
+    - **Spring Boot** – Framework utilizado para a construção do **back-end**, garantindo uma arquitetura modular, escalável e segura.
+    - **MySQL** – Sistema de base de dados relacional utilizado para armazenar informações sobre **utilizadores, cartas, torneios e transações**.
+    
+- **Plataforma de Desenvolvimento:**
+    
+    - **IntelliJ IDEA / Eclipse** – Ambientes de desenvolvimento utilizados na implementação e manutenção do código em **Java**.
+    - **Visual Studio Code** – Editor utilizado para a construção e otimização do **front-end** da plataforma.
+    
+- **Base de Dados:**
+    
+    - **MySQL Workbench** – Ferramenta utilizada para **modelação, administração e gestão** da base de dados.
+    
+- **API e Comunicação:**
+    
+    - **REST API com Spring Boot** – Permite a comunicação eficiente entre o **front-end** e o **back-end**, garantindo a integração fluida dos serviços da plataforma.
+    - **JSON** – Utilizado como formato de intercâmbio de dados entre cliente e servidor.
+    
+- **Sistemas de Informação Geográfica (SIG):**
+    
+    - **QGIS** – Ferramenta utilizada para análise geográfica e integração de **mapas interativos**, permitindo a visualização e localização de torneios físicos dentro da plataforma.
+    
+- **Segurança e Autenticação:**
+    
+    - **Spring Security** – Implementação de mecanismos de autenticação e autorização, garantindo **segurança e proteção de dados**.
+    - **JWT (JSON Web Token)** – Utilizado para autenticação dos utilizadores, assegurando sessões seguras.
+
+---
