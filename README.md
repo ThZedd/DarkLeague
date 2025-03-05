@@ -22,6 +22,8 @@
     - [Sistemas de Informação Geográfica (SIG)](#sistemas-de-informa%C3%A7%C3%A3o-geogr%C3%A1fica-sig)
     - [Segurança e Autenticação](#seguran%C3%A7a-e-autentica%C3%A7%C3%A3o)
 10. [Distribuição de Tarefas](#distribui%C3%A7%C3%A3o-de-tarefas)
+11. [Personas](#personas)
+12. [Bibliografia](#bibliografia)
 
 ---
 # Curso
@@ -92,7 +94,7 @@ Com o crescimento da comunidade de colecionadores e jogadores de cartas, a neces
 
 Após uma pesquisa acerca de plataformas disponíveis no mercado, identificámos vários websites que oferecem funcionalidades semelhantes ao **DarkLeague**, tais como:
 
-1. **Pokémon TCG Online** (tcg.pokemon.com) – Plataforma oficial da Pokémon Company para jogar, colecionar e gerir cartas digitalmente, incluindo partidas online e torneios.
+1. **Pokémon TCG Online** ([tcg.pokemon.com](https://tcg.pokemon.com)) – Plataforma oficial da Pokémon Company para jogar, colecionar e gerir cartas digitalmente, incluindo partidas online e torneios.
 2. **Limitless TCG** ([limitlesstcg.com](https://limitlesstcg.com)) – Focado na organização de torneios de Pokémon TCG, permitindo inscrições, gestão de brackets e emparelhamentos.
 3. **TCGPlayer** ([tcgplayer.com](https://www.tcgplayer.com)) – Marketplace online que permite a pesquisa e compra de cartas, além de exibir preços atualizados e informações detalhadas sobre cada carta.
 4. **Pokémon Price** ([pokemonprice.com](https://pokemonprice.com)) – Website que fornece um histórico de preços de cartas colecionáveis, ajudando os utilizadores a acompanhar a valorização das suas coleções.
@@ -181,3 +183,55 @@ Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e comp
 | **Todos** | Testes finais, otimizações e preparação para apresentação. | - Testes gerais de **desempenho e segurança**. | **03/05 - 09/05** |
 |                       |                                                       | - Revisão final e **documentação do projeto**. | **10/05 - 16/05** |
 | **Todos** | Revisão final e entrega do projeto. | - Últimos ajustes e **preparação da entrega final**. | **17/05 - 29/05** |
+
+---
+
+# Personas
+
+### **João Silva – O Jogador Competitivo**
+
+- **Idade**: 24 anos
+- **Profissão**: Estudante universitário
+- **Hobbies**: Jogos de cartas colecionáveis, torneios online e presenciais
+- **Objetivo no site**: Participar de torneios, acompanhar rankings e melhorar sua coleção de cartas
+- **Frustrações**: Dificuldade em encontrar torneios organizados e falta de informações detalhadas sobre as cartas
+- **Necessidades**:
+    - Um sistema de torneios bem estruturado
+    - Pesquisa rápida e detalhada de cartas
+    - Estatísticas e histórico de partidas
+
+### **Maria Ferreira – A Colecionadora Casual**
+
+- **Idade**: 30 anos
+- **Profissão**: Designer gráfica
+- **Hobbies**: Colecionar cartas raras e interagir com a comunidade
+- **Objetivo no site**: Explorar cartas disponíveis, conhecer mais sobre suas características e raridade
+- **Frustrações**: Dificuldade em encontrar informações precisas sobre a raridade e valor das cartas
+- **Necessidades**:
+    - Uma interface visualmente atrativa
+    - Filtros avançados para busca de cartas
+    - Comparação de cartas para avaliar sua coleção
+
+### **Ricardo Almeida – O Organizador de Torneios**
+
+- **Idade**: 38 anos
+- **Profissão**: Dono de uma loja de jogos
+- **Hobbies**: Criar eventos e conectar jogadores
+- **Objetivo no site**: Gerir torneios e atrair participantes para suas competições
+- **Frustrações**: Falta de ferramentas para gerenciamento eficiente de torneios
+- **Necessidades**:
+    - Um sistema intuitivo de cadastro e organização de torneios
+    - Funcionalidades para comunicação com jogadores
+    - Mapeamento geográfico para facilitar a localização dos torneios
+
+---
+# Bibliografia
+
+- [Figma - Figma, Inc.](https://www.figma.com/)
+- [Java - Oracle](https://www.java.com/)
+- [Spring Boot - VMware Tanzu](https://spring.io)
+- [MySQL - Oracle](https://www.mysql.com/)
+- [Pokémon TCG Online](https://tcg.pokemon.com)
+- [Limitless TCG](https://limitlesstcg.com)
+- [TCGPlayer](https://www.tcgplayer.com)
+-  [Pokémon Price](https://pokemonprice.com)
