@@ -1,4 +1,130 @@
-.navbar{
+/* NavBar */
+.navbar {
+    background-color: #a8a8a8;
+    border-radius: 70px;
+    padding: 10px 20px;
+
+    display: flex; /* Makes the navbar a flex container */
+    justify-content: left; /* Centers the content */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds space between items */
+    width: 97%;
+    margin: 0 auto; /* Centers the navbar */
+}
+
+.navbar div {
+    display: flex; /* Ensures icons and search bar stay in a row */
+    align-items: center;
+    gap: 45px; /* Space between icons */
+}
+
+.searchbar {
+    background-color: white;
+    background-image: url(/imagens/Lupa.png);
+    background-position: calc(100% - 10px) center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 34px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+    margin-right: 35px;
+}
+
+#home{
+    margin-left: 35px;
+}
+
+#profile{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+/*Displaying Cards */
+
+.displaycard{
+    background-color: #dadada;
+    border-radius: 6px;
+    padding: 10px 20px;
+
+    display: flex; /* Makes the navbar a flex container */
+    justify-content: left; /* Centers the content */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; 
+    width: 96%;
+    height: 300px;
+    margin: 35px auto; 
+}
+
+.displaycard.events{
+    background-color: #dadada;
+    border-radius: 6px;
+    padding: 10px 20px;
+
+    display: flex; /* Makes the navbar a flex container */
+    justify-content: left; /* Centers the content */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; 
     
-    color: #a8a8a8;
+}
+
+
+
+.displaycard.map {
+    background-image: url(imagens/Mapa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    padding: 10px 20px;
+
+    display: flex;
+    justify-content: left; /* Centers the content */
+    align-items: center; /* Aligns items vertically */
+
+}
+
+.displaycard.cards{
+    background-color: #929090;
+    border-radius: 6px;
+    padding: 10px ;
+    flex-direction: row;
+    position: relative;
+    
+    display: flex; /* Makes the navbar a flex container */
+    justify-content: left; /* Centers the content */
+    align-items: center;
+    gap: 100px; 
+    height: 420px;
+    
+    overflow-x: auto;  /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+
+.displaycard.cards p{
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 43.57px;
+    letter-spacing: 0%;
+
+    margin: 5px;
+    
+    
+}
+
+.card{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    
+    width:245px;
+    height: 342px;
 }

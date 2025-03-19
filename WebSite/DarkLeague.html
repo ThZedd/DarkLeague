@@ -7,17 +7,29 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <div class="navbar">
-            <a href="DarkLeague.html"><img src="imagens/Home.png" alt="Home"></a>
-            <a href="Cards.html"><img src="imagens/Cartas.png" alt="Cartas.png"></a>
-            <a href="Tournaments.html"><img src="imagens/Torneios.png" alt="Torneios.png"></a>
-        </div>
-        
-        <div>
-        <a href="Settings.html"><img src="imagens/Definições.png" alt="Definições.png"></a>
-        <a href="Profile.html"><img src="imagens/Perfil.png" alt="Perfil.png"></a>
-        </div>
+        <nav class="navbar">
+            <div>
+            <a id="home" href="DarkLeague.html"><img src="imagens/Home.png" alt="Home"></a>
+            <a class="navbar-items" href="Cards.html"><img src="imagens/Cartas.png" alt="Cartas.png"></a>
+            <a class="navbar-items" href="Tournaments.html"><img src="imagens/Torneios.png" alt="Torneios.png"></a>
+            </div>   
+            <input class="searchbar" type="text" name="SearchBar" id="searchBar">
 
-        
+            <a class="navbar-items" href="Settings.html"><img src="imagens/Definições.png" alt="Definições.png"></a>
+            <a id="profile" class="navbar-items" href="Profile.html"><img src="imagens/Perfil.png" alt="Perfil.png"></a>
+        </nav>
+
+        <div class="displaycard events"></div>
+        <div class="displaycard map"></div>
+
+        <div class="displaycard cards">
+            <p>You Might Like</p>
+            <img class="card" src="/imagens/charmander_full_art.png" alt="Charmander">
+            <img class="card" src="/imagens/bulbasaur_full_art.png" alt="Bulbasaur">
+            <img class="card" src="/imagens/squirtle_full_art.png" alt="Squirtle">
+            <img class="card" src="/imagens/pikachu_full_art.png" alt="Pikachu">
+            <img class="card" src="/imagens/umbreon_full_art.png" alt="Umbreon">
+        </div>
+    
     </body>
 </html>
