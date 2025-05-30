@@ -26,8 +26,9 @@
 12. [Interfaces e Usabilidade (Relatório)](#interfaces-e-usabilidade-relatório)
 13. [Estatística (Visualizar)](#estatística-visualizar)
 14. [Testar a funcionalidade de torneio](#testar-a-funcionalidade-de-torneio-as-restantes-funcionalidades-são-intuitivas)
-15. [Personas](#personas)
-16. [Bibliografia](#bibliografia)
+15. [Relatório de Projeto Web](#relatório-de-projeto-web)
+16. [Personas](#personas)
+17. [Bibliografia](#bibliografia)
 
 ---
 # Curso
@@ -228,6 +229,13 @@ Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e comp
 ```
 - Depois de entrarmos na conta do arbitro, vamos até as notificações e **selecionamos então qual jogador ganhou.**
 
+---
+# Relatório de Projeto Web
+ - Deixo aqui o relatório do projeto visualização:
+
+ - [Relatório do Projeto](Entrega_Final/Relatorio_projeto.pdf) 
+
+ ---
 # Personas
 
 ### **João Silva – O Jogador Competitivo**
