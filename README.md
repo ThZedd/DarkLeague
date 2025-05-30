@@ -27,8 +27,10 @@
 13. [Estatística (Visualizar)](#estatística-visualizar)
 14. [Testar a funcionalidade de torneio](#testar-a-funcionalidade-de-torneio-as-restantes-funcionalidades-são-intuitivas)
 15. [Relatório de Projeto Web](#relatório-de-projeto-web)
-16. [Personas](#personas)
-17. [Bibliografia](#bibliografia)
+16. [Video Promocional](#video-promocional)
+17. [Melhorias para a Apresentação e Futuras](#melhorias-para-a-apresentação-e-futuras)
+17. [Personas](#personas)
+18. [Bibliografia](#bibliografia)
 
 ---
 # Curso
@@ -234,6 +236,20 @@ Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e comp
  - Deixo aqui o relatório do projeto visualização:
 
  - [Relatório do Projeto](Entrega_Final/Relatorio_projeto.pdf) 
+
+ ---
+# Video Promocional
+ - Deixo aqui o Video Promocional:
+
+ - [Video Promocional](Entrega_Final/DarkLeague_Promo_Video.mp4) 
+
+ ---
+ # Melhorias para a Apresentação e Futuras
+ - Infelizmente não conseguimos terminar o projeto por completo, ficou em falta apenas a parte dos "Historico de Partidas", que pretendemos deixar preparado para a apresentação, de resto está tudo de acordo com os objetivos iniciais do trabalho.
+
+ - No futuro, desejamos implementar mais funcionalidades, como por exemplo, quando o utilizador selecionar o seu tipo favortio, o tema do website estar a condizer com o tipo favorito do utilizador.
+
+ - Em suma, estamos satisfeitos com o projeto em geral.Houve diversas alterações na interface ao longo do projeto, mas conseguimos no final chegar a um consenso.
 
  ---
 # Personas
