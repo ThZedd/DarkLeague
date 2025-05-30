@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <title>Tournaments</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="pokeCanvas"></canvas>
+
+  <nav class="navbar">
+    <div>
+      <a id="home" href="/"><img src="imagens/Home.png" alt="Home"></a>
+      <a class="navbar-items" href="/Cards"><img src="imagens/Cartas.png" alt="Cartas.png"></a>
+      <a class="navbar-items" href="/Tournaments"><img src="imagens/Torneios.png" alt="Torneios.png"></a>
+    </div>
+    <input class="searchbar" type="text" name="SearchBar" id="searchBar">
+
+    <div class="settings-container">
+      <img src="imagens/Definições.png" alt="Definições" class="settings-icon" onclick="toggleSettingsMenu()">
+      <div class="settings-menu hidden" id="settingsMenu">
+        <a href="/Settings">Definições</a>
+        <a href="#">Temas</a>
+        <a href="/Notificacoes">Notificações</a>
+      </div>
+    </div>
+
+    <div class="profile-container">
+      <img src="imagens/Perfil.png" alt="Perfil" class="profile-icon" onclick="toggleProfileMenu()">
+      <div class="profile-menu hidden" id="profileMenu">
+        <div class="profile-header">
+          <img src="imagens/avatar.png" class="profile-avatar">
+          <div class="profile-username">@username</div>
+          <div class="profile-name">Name</div>
+        </div>
+        <a href="/Tournaments">Torneios Realizados</a>
+        <a href="/Cards">Cartas Expostas</a>
+        <a href="/Binders">Binders em Exposição</a>
+        <a href="/Binders">Cartas Favoritas</a>
+        <a href="#logout" class="logout-btn">Logout</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main-container">
+    <div class="rank-section">
+      <h2>O Teu Rank:</h2>
+      <img src="imagens/MasterRank.png" alt="Master Rank" class="rank-img">
+    </div>
+
+    <div class="players-section">
+      <h3>Players disponíveis para Marcar:</h3>
+      <ul class="players-list">
+        <li><span></span><span></span><button>Convidar</button></li>
+        <li><span></span><span></span><button>Convidar</button></li>
+        <li><span></span><span></span><button>Convidar</button></li>
+        <li><span></span><span></span><button>Convidar</button></li>
+        <li><span></span><span></span><button>Convidar</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="inviteModal" class="modal hidden">
+    <div class="modal-content custom-invite">
+      <span class="close-btn">&times;</span>
+      <h2 class="invite-title">Convite para <strong>@PlayersDispinível123</strong></h2>
+
+      <label class="invite-label">Escolha uma data e horário:</label>
+      <div class="datetime-row">
+        <input type="date" id="date-input">
+        <input type="time" id="time-input">
+      </div>
+
+      <h3 class="invite-subtitle">Escolha um ponto de Encontro:</h3>
+      <div id="modal-map" style="width: 100%; height: 300px; border-radius: 8px;"></div>
+      <p class="selected-point">Ponto Selecionado: Nenhum</p>
+      <button class="invite-btn">Convidar</button>
+    </div>
+  </div>
+
+  <!-- Registo de Jogos -->
+  <section class="game-history">
+  <h2 class="section-title">Registo de Jogos</h2>
+  <!-- O conteúdo virá do JavaScript -->
+</section>
+
+
+  <!-- Scripts -->
+  <script type="module" src="/firebase.js"></script>
+  <script type="module" src="auth.js"></script>
+  <script type="module" src="historico.js"></script>
+  <script type="module" src="tournaments.js"></script>
+  <script>
+    window.initMap = async function () {
+      const module = await import('./map.js');
+      module.initMap();
+    };
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvL-O2i4Y_WPBQb7T0I3T2HN4jy9CZ48o&callback=initMap" async defer></script>
+</body>
+</html>

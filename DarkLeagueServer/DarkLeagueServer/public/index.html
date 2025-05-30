@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DarkLeague</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="/auth.js" defer></script>
+        <script src="script.js" defer></script> <!-- Com defer: O script é executado apenas após o HTML ser completamente carregado, garantindo que todos os elementos estejam disponíveis. -->
+    </head>
+    <body>
+        <canvas id="pokeCanvas"></canvas>
+
+        <nav class="navbar">
+            <div>
+                <a id="home" href="/"><img src="imagens/Home.png" alt="Home"></a>
+                <a class="navbar-items" href="/Cards"><img src="imagens/Cartas.png" alt="Cartas.png"></a>
+                <a class="navbar-items" href="/Tournaments"><img src="imagens/Torneios.png" alt="Torneios.png"></a>
+            </div>   
+            <input class="searchbar" type="text" name="SearchBar" id="searchBar">
+
+             <div class="settings-container">
+                <img src="imagens/Definições.png" alt="Definições" class="settings-icon" onclick="toggleSettingsMenu()">
+                <div class="settings-menu hidden" id="settingsMenu">
+                    <a href="/Settings">Definições</a>
+                    <a href="#">Temas</a>
+                    <a href="/Notificacoes">Notificações</a>
+                </div>
+            </div>
+            <div class="profile-container">
+                <img src="imagens/Perfil.png" alt="Perfil" class="profile-icon" onclick="toggleProfileMenu()">
+                <div class="profile-menu hidden" id="profileMenu">
+                    <!-- Cabeçalho -->
+                    <div class="profile-header">
+                        <img src="imagens/avatar.png" class="profile-avatar">
+                        <div class="profile-username">@username</div>
+                        <div class="profile-name">Name</div>
+                    </div>
+                    
+                    <!-- Divisor -->
+                    
+                    
+                    <!-- Itens do Menu -->
+                    <a href="/Tournaments">Torneios Realizados</a>
+                    <a href="/Cards">Cartas Expostas</a>
+                    <a href="/Binders">Binders em Exposição</a>
+                    <a href="/Binders">Cartas Favoritas</a>
+                    <a href="#logout" class="logout-btn">Logout</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="displaycard events">
+            <div class="event-info">
+                <h2>Event happening</h2>
+                <p><strong>Date:</strong> 01-01-2025</p>
+                <p><strong>Time:</strong> 00:00 - 23:59</p>
+                <p><strong>Local:</strong> IADE University of Creators</p>
+                <p><strong>Type:</strong> Master Bracket</p>
+            </div>
+            <div class="event-image">
+                <img src="/imagens/Event1.png" alt="Event Banner">
+            </div>
+        </div>
+
+        <div class="displaycard map" id="map">
+             
+        </div>
+
+        <div class="displaycard cards">
+            <p>You Might Like</p>
+            <img class="card" src="/imagens/charmander_full_art.png" alt="Charmander">
+            <img class="card" src="/imagens/bulbasaur_full_art.png" alt="Bulbasaur">
+            <img class="card" src="/imagens/squirtle_full_art.png" alt="Squirtle">
+            <img class="card" src="/imagens/pikachu_full_art.png" alt="Pikachu">
+            <img class="card" src="/imagens/umbreon_full_art.png" alt="Umbreon">
+        </div>
+
+        
+        <script type="module" src="/firebase.js"></script>
+        <script>
+        window.initMap = async function () {
+            const module = await import('./map.js');
+            module.initMap();
+        };
+        </script>
+
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvL-O2i4Y_WPBQb7T0I3T2HN4jy9CZ48o&callback=initMap"
+        async defer>
+        </script>
+
+
+
+
+    </body>
+</html>

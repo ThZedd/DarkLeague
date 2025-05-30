@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>DarkLeague - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="pokeCanvas"></canvas>
+  
+  <div class="register-container">
+    <div class="register-card">
+      <h2>Login</h2>
+      
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" required placeholder="Digite seu email">
+        </div>
+
+        <div class="form-group">
+          <label for="login-password">Senha</label>
+          <input type="password" id="login-password" required placeholder="Digite sua senha">
+        </div>
+
+        <button type="submit" class="register-btn">Entrar</button>
+      </form>
+
+      <div class="login-link">
+        Não tem conta? <a href="/register.html">Crie uma conta</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts Firebase -->
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title class="title">Charmander (044) - SV Black Star Promos</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="chart.js"></script>
+ 
+  <script src="script.js" defer></script>
+</head>
+<body>
+    
+<canvas id="pokeCanvas"></canvas>
+
+        <nav class="navbar">
+            <div>
+                <a id="home" href="/"><img src="imagens/Home.png" alt="Home"></a>
+                <a class="navbar-items" href="/Cards"><img src="imagens/Cartas.png" alt="Cartas.png"></a>
+                <a class="navbar-items" href="/Tournaments"><img src="imagens/Torneios.png" alt="Torneios.png"></a>
+            </div>   
+            <input class="searchbar" type="text" name="SearchBar" id="searchBar">
+
+             <div class="settings-container">
+                <img src="imagens/Definições.png" alt="Definições" class="settings-icon" onclick="toggleSettingsMenu()">
+                <div class="settings-menu hidden" id="settingsMenu">
+                    <a href="/Settings">Definições</a>
+                    <a href="#">Temas</a>
+                     <a href="/Notificacoes">Notificações</a>
+                   
+                </div>
+            </div>
+            <div class="profile-container">
+                <img src="imagens/Perfil.png" alt="Perfil" class="profile-icon" onclick="toggleProfileMenu()">
+                <div class="profile-menu hidden" id="profileMenu">
+                    <!-- Cabeçalho -->
+                    <div class="profile-header">
+                        <img src="imagens/avatar.png" class="profile-avatar">
+                        <div class="profile-username">@username</div>
+                        <div class="profile-name">Name</div>
+                    </div>
+                    
+                    <!-- Divisor -->
+                    
+                    
+                    <!-- Itens do Menu -->
+                   <a href="/Tournaments">Torneios Realizados</a>
+                    <a href="/Cards">Cartas Expostas</a>
+                    <a href="/Binders">Binders em Exposição</a>
+                    <a href="/Binders">Cartas Favoritas</a>
+                    <a href="#logout" class="logout-btn">Logout</a>
+                </div>
+            </div>
+        </nav>
+
+  <main class="card-detail-container">
+
+      <section class="card-header">
+    <div class="card-title-with-icon">
+      <h1></h1>
+      <span class="material-icons favorite-icon" title="Adicionar aos favoritos">star_border</span>
+    </div>
+    <p class="subtitle"></p>
+    
+      <!-- Botão para adicionar a carta ao binder -->
+  <div class="add-to-binder-container">
+    <select id="binderSelect">
+      <option value="">Seleciona um binder</option>
+    </select>
+    <button id="addToBinderBtn">Adicionar ao Binder</button>
+  </div>
+</section>
+
+    <div class="card-main-content">
+
+      <div class="card-image-panel">
+        <img src="" alt="">
+      </div>
+
+      <div class="card-info-panel">
+        <ul class="card-data-list">
+          <li><strong>Raridade:</strong> ● Comum</li>
+          <li><strong>Número:</strong> 044</li>
+          <li><strong>Conjunto:</strong>SV Black Star Promos</li>
+          <li><strong>Espécie:</strong> Charmander</li>
+          <li><strong>Itens disponíveis:</strong> 5228</li>
+          <li><strong>Preço atual:</strong> 0,25 €</li>
+          <li><strong>Preço médio (30d):</strong> 0,25 €</li>
+          <li><strong>Preço médio (7d):</strong> 0,24 €</li>
+          <li><strong>Preço médio (1d):</strong> 0,23 €</li>
+        </ul>
+      </div>
+      <div class="price-chart">
+        <canvas id="priceChart" width="600" height="300"></canvas>
+      </div>
+      
+
+    </div>
+
+    <section class="offers-table">
+      <h2>Vendedores</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Vendedor</th>
+            <th>Condição</th>
+            <th>Informação</th>
+            <th>Preço</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="btn-buy">🛒</button></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="btn-buy">🛒</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+<script type="module" src="/firebase.js"></script>
+<script type="module" src="auth.js"></script>
+ <script type="module" src="cartasdetail.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Estatísticas de Cartas Pokémon</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.18.2.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+    h2 {
+      color: #333;
+    }
+    section {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    canvas {
+      max-width: 100%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    #graficoRaridade {
+  max-width: 600px;
+  height: 300px; /* diminua aqui como quiser */
+  margin: 0 auto;
+  display: block;
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>Dashboard de Estatísticas - Cartas Pokémon</h1>
+
+  <!-- Tabela de Frequências -->
+<section>
+  <h2>Tabela de Frequências dos Tipos nos Favoritos</h2>
+  <p>Distribuição dos tipos de cartas marcadas como favoritas por todos os usuários.</p>
+  <div class="info-box">
+    <span id="totalUsuarios">0</span> usuários analisados | 
+    <span id="totalFavoritos">0</span> cartas favoritas
+  </div>
+  <table id="frequencias-tipos">
+    <thead>
+      <tr>
+        <th>Tipo</th>
+        <th>Frequência Absoluta</th>
+        <th>Frequência Relativa (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Dados serão populados via JavaScript -->
+    </tbody>
+  </table>
+</section>
+
+  <!-- Número total e porcentagem de cada tipo -->
+  <section>
+    <h2>Distribuição de Cartas por Tipo</h2>
+    <p>Porcentagem de cada tipo de carta na coleção.</p>
+    <div id="graficoPizzaTipos" style="width:100%; height:500px;"></div>
+  </section>
+  <!-- Histograma dos preços -->
+  <section>
+    <h2>Histograma dos Preços das Cartas</h2>
+    <p>Distribuição dos preços das cartas disponíveis na base de dados.</p>
+    <div id="histogramaPrecos" style="width:100%; height:500px;"></div>
+  </section>
+
+  <!-- Boxplot -->
+  <section>
+    <h2>Boxplot de Preços por Raridade</h2>
+    <p>Visualização da dispersão dos preços conforme a raridade das cartas.</p>
+    <div id="boxplotPrecos" style="width:100%; height:600px;"></div>
+  </section>
+
+  <!-- Gráfico de Barras - Raridades -->
+  <section>
+    <h2>Cartas por Raridade</h2>
+    <p>Quantidade de cartas por categoria de raridade (comum, rara, etc.).</p>
+    <canvas id="graficoRaridade"></canvas>
+  </section>
+
+<script type="module" src="graficobarras.js"></script>
+ <script type="module" src="boxplot.js"></script>
+ <script type="module" src="histograma.js"></script>
+ <script type="module" src="graficoPizza.js"></script>
+ <script type="module" src="tabelaFrequencias.js"></script>
+</body>
+</html>

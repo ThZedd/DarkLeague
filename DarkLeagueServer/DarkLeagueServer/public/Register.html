@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <title>DarkLeague - Register</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Firebase e Registro (devem ser módulos ES) -->
+    <script type="module" src="/firebase.js"></script>
+    <script type="module" src="/register.js"></script>
+
+   
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <canvas id="pokeCanvas"></canvas>
+    
+    <div class="register-container">
+        <div class="register-card">
+            <h2>Criar Conta</h2>
+            
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="register-email">Email</label>
+                    <input type="email" id="register-email" required placeholder="Digite seu email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="register-username">Username</label>
+                    <input type="text" id="register-username" required placeholder="Digite seu username">
+                </div>
+
+                <div class="form-group">
+                    <label for="register-password">Password</label>
+                    <input type="password" id="register-password" required placeholder="Digite sua senha">
+                </div>
+                
+                <div class="form-group">
+                    <label for="register-favtype">Tipo Favorito</label>
+                    <select id="register-favtype" required>
+                        <option value="" disabled selected>Selecione um tipo</option>
+                        <option value="Fire">Fogo</option>
+                        <option value="Water">Água</option>
+                        <option value="Grass">Erva</option>
+                        <option value="Electric">Elétrico</option>
+                        <option value="Psychic">Psíquico</option>
+                        <option value="Rock">Pedra</option>
+                        <option value="Dragon">Dragão</option>
+                        <option value="Ghost">Fantasma</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="register-btn">Registar</button>
+            </form>
+            
+            <div class="login-link">
+                Já tem conta? <a href="/Login">Faça login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

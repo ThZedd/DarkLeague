@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Binders</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <canvas id="pokeCanvas"></canvas>
+        <nav class="navbar">
+            <div>
+                <a id="home" href="/"><img src="imagens/Home.png" alt="Home"></a>
+                <a class="navbar-items" href="/Cards"><img src="imagens/Cartas.png" alt="Cartas.png"></a>
+                <a class="navbar-items" href="/Tournaments"><img src="imagens/Torneios.png" alt="Torneios.png"></a>
+            </div>   
+            <input class="searchbar" type="text" name="SearchBar" id="searchBar">
+
+             <div class="settings-container">
+                <img src="imagens/Definições.png" alt="Definições" class="settings-icon" onclick="toggleSettingsMenu()">
+                <div class="settings-menu hidden" id="settingsMenu">
+                    <a href="/Settings">Definições</a>
+                    <a href="#">Temas</a>
+                     <a href="/Notificacoes">Notificações</a>
+                    
+                </div>
+            </div>
+            <div class="profile-container">
+                <img src="imagens/Perfil.png" alt="Perfil" class="profile-icon" onclick="toggleProfileMenu()">
+                <div class="profile-menu hidden" id="profileMenu">
+                    <!-- Cabeçalho -->
+                    <div class="profile-header">
+                        <img src="imagens/avatar.png" class="profile-avatar">
+                        <div class="profile-username">@username</div>
+                        <div class="profile-name">Name</div>
+                    </div>
+                    
+                    <!-- Divisor -->
+                    
+                    
+                    <!-- Itens do Menu -->
+                    <a href="/Tournaments">Torneios Realizados</a>
+                    <a href="/Cards">Cartas Expostas</a>
+                    <a href="/Binders">Binders em Exposição</a>
+                    <a href="/Binders">Cartas Favoritas</a>
+                    <a href="#logout" class="logout-btn">Logout</a>
+                </div>
+            </div>
+        </nav>
+        <div class="displaycard cards Fav">
+            <p class="pl">Favorite Cards</p>
+           
+        </div>
+        
+        <div class="binder-list"></div>
+        
+   <div class="create-binder-container">
+  <p class="binder-message">Os Teus Binders Criados Apareceram Aqui!</p>
+  <p class="create-binder-text">Criar Novo Binder</p>
+  <button class="create-binder-button">
+    <img src="imagens/adicionarBinder.png" alt="Criar novo binder">
+  </button>
+</div>
+
+<div id="binderModal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close-button" onclick="closeModal()">&times;</span>
+    <h2>Nome do Novo Binder</h2>
+    <input type="text" id="binderNameInput" placeholder="Insere o nome do binder">
+    <button onclick="createBinder()">Criar</button>
+  </div>
+</div>
+        
+
+        <script type="module" src="/firebase.js"></script>
+        <script type="module" src="binders.js"></script>
+        <script type="module" src="auth.js"></script>
+    </body>
+</html>
