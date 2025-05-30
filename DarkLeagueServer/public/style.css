@@ -119,22 +119,30 @@ body {
 }
 
 .searchbar {
-    background-color: white;
-    background-image: url(/imagens/Lupa.png);
-    background-position: calc(100% - 10px) center;
-    background-repeat: no-repeat;
-    width: 1440px;
-    height: 34px;
-    border-radius: 15px;
-    border: none;
-    padding: 5px;
-    margin-right: 35px;
-    transition: all 0.3s ease;
+  width: 1050px;
+  height: 34px;
+  padding: 8px;
+  border-radius: 15px;
+  border: none;
+  background-color: white;
+  background-image: url(/imagens/Lupa.png);
+  background-position: calc(100% - 10px) center;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  margin-right: 35px;
 }
+
+
 
 .searchbar:focus {
     outline: none;
     box-shadow: 0 0 8px rgba(255, 111, 97, 0.5); /* Coral shadow on focus */
+}
+
+.searchbar-container {
+  position: relative;
+  display: inline-block;
 }
 
 #home {
@@ -1910,3 +1918,43 @@ body {
 .game-card:nth-child(4) { animation-delay: 0.3s; }
 .game-card:nth-child(5) { animation-delay: 0.4s; }
 
+
+
+.search-results {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  z-index: 100;
+  background: rgb(0, 0, 0);
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 1050px; 
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.search-result-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search-result-item:hover {
+  background-color: #eb4444;
+}
+
+.search-result-img {
+  width: 80px;
+  height: 96px;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+
+  

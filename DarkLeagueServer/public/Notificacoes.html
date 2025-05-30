@@ -16,7 +16,12 @@
                 <a class="navbar-items" href="/Cards"><img src="imagens/Cartas.png" alt="Cartas.png"></a>
                 <a class="navbar-items" href="/Tournaments"><img src="imagens/Torneios.png" alt="Torneios.png"></a>
             </div>   
-            <input class="searchbar" type="text" name="SearchBar" id="searchBar">
+            
+           <div class="searchbar-container">
+            <input class="searchbar" type="text" id="searchBar" placeholder="Pesquisar carta...">
+            <ul id="searchResults" class="search-results"></ul>
+            </div>
+            
 
              <div class="settings-container">
                 <img src="imagens/Definições.png" alt="Definições" class="settings-icon" onclick="toggleSettingsMenu()">
@@ -57,5 +62,6 @@
   <script type="module" src="notificacoes.js"></script>
   <script type="module" src="firebase.js"></script>
   <script type="module" src="auth.js"></script>
+  <script type="module" src="searchbar.js"></script>
 </body>
 </html>
