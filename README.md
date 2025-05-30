@@ -22,8 +22,12 @@
     - [Sistemas de Informação Geográfica (SIG)](#sistemas-de-informa%C3%A7%C3%A3o-geogr%C3%A1fica-sig)
     - [Segurança e Autenticação](#seguran%C3%A7a-e-autentica%C3%A7%C3%A3o)
 10. [Distribuição de Tarefas](#distribui%C3%A7%C3%A3o-de-tarefas)
-11. [Personas](#personas)
-12. [Bibliografia](#bibliografia)
+11. [Como Rodar o Servidor](#como-rodar-o-servidor)
+12. [Interfaces e Usabilidade (Relatório)](#interfaces-e-usabilidade-relatório)
+13. [Estatística (Visualizar)](#estatística-visualizar)
+14. [Testar a funcionalidade de torneio](#testar-a-funcionalidade-de-torneio-as-restantes-funcionalidades-são-intuitivas)
+15. [Personas](#personas)
+16. [Bibliografia](#bibliografia)
 
 ---
 # Curso
@@ -121,36 +125,33 @@ Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e comp
 
 - **Linguagens de Programação:**
     
-    - **Java** – Utilizado no desenvolvimento da lógica do servidor e implementação da API com **Spring Boot**.
     - **JavaScript** – Responsável pela interatividade da interface do utilizador, garantindo uma experiência dinâmica e responsiva.
     - **HTML & CSS** – Fundamentais para a estruturação e estilização do **front-end**, assegurando um design intuitivo e acessível.
     
 - **Frameworks e Tecnologias:**
     
-    - **Spring Boot** – Framework utilizado para a construção do **back-end**, garantindo uma arquitetura modular, escalável e segura.
-    - **MySQL** – Sistema de base de dados relacional utilizado para armazenar informações sobre **utilizadores, cartas, torneios e transações**.
+    - **Node.js** – Framework utilizado para a construção do **back-end**, garantindo uma arquitetura modular, escalável e segura.
+    - **NoSQL** – Sistema de base de dados não relacional utilizado para armazenar informações sobre **utilizadores, cartas, torneios e transações**.
     
 - **Plataforma de Desenvolvimento:**
     
-    - **IntelliJ IDEA / Eclipse** – Ambientes de desenvolvimento utilizados na implementação e manutenção do código em **Java**.
     - **Visual Studio Code** – Editor utilizado para a construção e otimização do **front-end** da plataforma.
     
 - **Base de Dados:**
     
-    - **MySQL Workbench** – Ferramenta utilizada para **modelação, administração e gestão** da base de dados.
+    - **FireBase** – Ferramenta utilizada para **modelação, administração e gestão** da base de dados.
     
 - **API e Comunicação:**
     
-    - **REST API com Spring Boot** – Permite a comunicação eficiente entre o **front-end** e o **back-end**, garantindo a integração fluida dos serviços da plataforma.
+    - **Node.js** – Permite a comunicação eficiente entre o **front-end** e o **back-end**, garantindo a integração fluida dos serviços da plataforma.
     - **JSON** – Utilizado como formato de intercâmbio de dados entre cliente e servidor.
     
 - **Sistemas de Informação Geográfica (SIG):**
     
-    - **QGIS** – Ferramenta utilizada para análise geográfica e integração de **mapas interativos**, permitindo a visualização e localização de torneios físicos dentro da plataforma.
+    - **Google Maps** – Ferramenta utilizada para análise geográfica e integração de **mapas interativos**, permitindo a visualização e localização de jogos físicos dentro da plataforma.
     
 - **Segurança e Autenticação:**
     
-    - **Spring Security** – Implementação de mecanismos de autenticação e autorização, garantindo **segurança e proteção de dados**.
     - **JWT (JSON Web Token)** – Utilizado para autenticação dos utilizadores, assegurando sessões seguras.
 
 ---
@@ -185,6 +186,47 @@ Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e comp
 | **Todos** | Revisão final e entrega do projeto. | - Últimos ajustes e **preparação da entrega final**. | **17/05 - 29/05** |
 
 ---
+# Como Rodar o Servidor
+- **Abrir o node.js CMD**;
+- **Ir até a pasta "DarkLeagueServer"**;
+- **Depois de chegar na pasta digitar**:
+
+```
+    node server.js
+```
+
+- **Depois abrir o browser e colocar**
+
+```
+    http://localhost:3000/
+```
+
+---
+# Interfaces e Usabilidade (Relatório)
+ - Deixo aqui o relatório de interfaces para visualização:
+
+ - [Relatório de Interfaces](Entrega_Final/Report_UI.pdf) 
+
+---
+# Estatística (Visualizar)
+
+ - Para visualizar a parte estátistica do nosso website basta iniciar o servidor, como dito em [cima](#como-rodar-o-servidor) e depois abrir o browser e colocar:
+
+```
+    http://localhost:3000/Statistic
+```
+
+---
+# Testar a funcionalidade de torneio (as restantes funcionalidades são intuitivas)
+- De forma a conseguirmos testar completamente a funcionalidade de torneio necessitamos de fazer o convite para o jogador que desejamos, **entrar na conta desse user (exemplo: user2), ir até as notificações e aceitar/rejeitar o convite**.
+
+- Se aceitarmos o convite, então a partida estará marcada, depois basta **entrar-mos na conta do arbitro, que por default é a seguinte:**
+
+```
+    email: noob2@gmail.com
+    password: 123456
+```
+- Depois de entrarmos na conta do arbitro, vamos até as notificações e **selecionamos então qual jogador ganhou.**
 
 # Personas
 
@@ -234,4 +276,4 @@ Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e comp
 - [Pokémon TCG Online](https://tcg.pokemon.com)
 - [Limitless TCG](https://limitlesstcg.com)
 - [TCGPlayer](https://www.tcgplayer.com)
--  [Pokémon Price](https://pokemonprice.com)
+- [Pokémon Price](https://pokemonprice.com)
