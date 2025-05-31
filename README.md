@@ -250,6 +250,17 @@ Embora estes websites ofereçam funcionalidades como **torneios, pesquisa e comp
  - No futuro, desejamos implementar mais funcionalidades, como por exemplo, quando o utilizador selecionar o seu tipo favortio, o tema do website estar a condizer com o tipo favorito do utilizador.
 
  - Em suma, estamos satisfeitos com o projeto em geral.Houve diversas alterações na interface ao longo do projeto, mas conseguimos no final chegar a um consenso.
+ ---
+ # Features previstas no início do projeto versus features efetivamente implementadas
+ - Criação dos Binders para guardar as nossas cartas favoritas, feito.
+
+ - Conseguir favoritar as cartas que desejamos e guarda-las nos nossos binders.
+
+ - Partidas entre jogadores, conseguimos implementar as partidas entre os jogadores e ainda adicionalmente um arbitro.
+
+ - Temas personalizados dependendo do tipo favorito do user, infelizmente não conseguimos alcançar esta parte visual.
+
+ - Em suma, todas as features previstas no início do projeto foram efetivamente implementadas.
 
  ---
 # Personas
