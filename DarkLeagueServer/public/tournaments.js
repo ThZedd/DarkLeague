@@ -21,13 +21,7 @@ import {
 
 // Configuração do Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAJz998aXMiiHK_0EklTxt7HUHlaBMdH6Q",
-  authDomain: "darkleague-2df7a.firebaseapp.com",
-  projectId: "darkleague-2df7a",
-  storageBucket: "darkleague-2df7a.appspot.com",
-  messagingSenderId: "890671529948",
-  appId: "1:890671529948:web:6755f01a9b701e67eed919",
-  measurementId: "G-RS16T4VDP9"
+ 
 };
 
 const app = initializeApp(firebaseConfig);
